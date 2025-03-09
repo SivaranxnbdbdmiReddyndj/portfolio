@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SivaRamireddy Venna - IoT Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+        }
+        body { font-family: 'Segoe UI', sans-serif; }
+        .hero { 
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 0;
+        }
+        .skill-badge { background: var(--secondary-color); margin: 2px; }
+        .project-card, .exp-card { transition: transform 0.3s; }
+        .project-card:hover, .exp-card:hover { transform: translateY(-3px); }
+        .section-title { color: var(--primary-color); border-bottom: 2px solid var(--secondary-color); padding-bottom: 0.5rem; }
+        .timeline-item { border-left: 2px solid var(--secondary-color); padding-left: 1.5rem; margin-left: 1rem; }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero text-center">
+        <div class="container">
+            <h1>SivaRamireddy Venna</h1>
+            <p class="lead">IoT Innovator & Embedded Systems Engineer</p>
+            <div class="social-links mb-3">
+                <a href="https://www.linkedin.com/in/sivaramireddy-venna" target="_blank" class="text-white mx-2">LinkedIn</a>
+                <a href="https://www.blogger.com/blog/posts/5275521123091302595" target="_blank" class="text-white mx-2">Blog</a>
+                <a href="https://github.com/SivaranxnbdbdmiReddyndj" target="_blank" class="text-white mx-2">GitHub</a>
+                <a href="http://sivaramservices.website2.me/#" target="_blank" class="text-white mx-2">Website</a>
+            </div>
+            <p class="mb-0">Email: sivaramservices@gmail.com | Phone: +91 6302779701</p>
+            <p>Andhra Pradesh, India</p>
+            <button id="downloadResume" class="btn btn-light mt-3">Download Resume (PDF)</button>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section class="container py-5">
+        <h2 class="section-title mb-4">Technical Arsenal</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Programming</h5>
+                <div class="d-flex flex-wrap">
+                    <span class="badge skill-badge">C</span>
+                    <span class="badge skill-badge">Python</span>
+                    <span class="badge skill-badge">Embedded C</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>Technologies</h5>
+                <div class="d-flex flex-wrap">
+                    <span class="badge skill-badge">STM32</span>
+                    <span class="badge skill-badge">Arduino</span>
+                    <span class="badge skill-badge">NodeMCU</span>
+                    <span class="badge skill-badge">Ultrasonic Systems</span>
+                    <span class="badge skill-badge">IoT</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>Tools</h5>
+                <div class="d-flex flex-wrap">
+                    <span class="badge skill-badge">Arduino IDE</span>
+                    <span class="badge skill-badge">Tkinter</span>
+                    <span class="badge skill-badge">Matplotlib</span>
+                    <span class="badge skill-badge">Linux</span>
+                    <span class="badge skill-badge">SQL</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>Languages</h5>
+                <div class="d-flex flex-wrap">
+                    <span class="badge skill-badge">Telugu (Native)</span>
+                    <span class="badge skill-badge">English (Working)</span>
+                    <span class="badge skill-badge">Hindi (Basic)</span>
+                    <span class="badge skill-badge">Tamil (Basic)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">Professional Journey</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="text-primary">Internships</h4>
+                    <!-- Emertxe Internship -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>Embedded Systems & IoT Intern</h5>
+                            <p class="text-muted">Emertxe Information Technologies</p>
+                            <ul>
+                                <li>Worked with MPLAB, PIC Genius, and Embedded C</li>
+                                <li>Gained hands-on experience with SDLC in embedded systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- IXAR Internship -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>IoT Intern</h5>
+                            <p class="text-muted">IXAR Robotic Solutions Pvt. Ltd.</p>
+                            <ul>
+                                <li>Developed IoT-based projects using NodeMCU and Arduino</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- SURE TRUST Internship -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>Embedded Systems & IoT Intern</h5>
+                            <p class="text-muted">SURE TRUST</p>
+                            <ul>
+                                <li>Designed projects using Autodesk Tinkercad and IoT platforms</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Emertxe IoT Internship -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>IoT Intern</h5>
+                            <p class="text-muted">Emertxe Information Technologies</p>
+                            <ul>
+                                <li>Contributed to the Software Development Life Cycle (SDLC)</li>
+                                <li>Gained foundational experience in C programming and microcontrollers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <h4 class="text-primary">Other Experiences</h4>
+                    <!-- Content Writer -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>Content Writer</h5>
+                            <p class="text-muted">Borok Times, Madras Scientific Research Foundation</p>
+                        </div>
+                    </div>
+                    
+                    <!-- International Recruitment Manager -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>International Recruitment Manager</h5>
+                            <p class="text-muted">Skillbee</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Operations Team Member -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>Operations Team Member</h5>
+                            <p class="text-muted">Solutiongraphs</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Web Developer -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>Web Developer</h5>
+                            <p class="text-muted">Habitat for Humanity International</p>
+                        </div>
+                    </div>
+                    
+                    <!-- DevOps Engineer -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>DevOps Engineer</h5>
+                            <p class="text-muted">The Entrepreneurship Network</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Human Resources Assistant -->
+                    <div class="exp-card card mb-3">
+                        <div class="card-body">
+                            <h5>Human Resources Assistant</h5>
+                            <p class="text-muted">PADHHIGH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container py-5">
+        <h2 class="section-title mb-4">Innovation Showcase</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Distance Wireless Charging -->
+            <div class="col">
+                <div class="project-card card h-100">
+                    <div class="card-body">
+                        <h5>Distance Wireless Charging Using Ultrasonic</h5>
+                        <p>Developed an innovative wireless charging system using ultrasonic waves for mobile phones</p>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-secondary">Ultrasonic</span>
+                            <span class="badge bg-secondary">IoT</span>
+                            <span class="badge bg-secondary">Embedded Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- AgriConnect -->
+            <div class="col">
+                <div class="project-card card h-100">
+                    <div class="card-body">
+                        <h5>AgriConnect: Empowering Farmers</h5>
+                        <p>Platform promoting organic farming practices and government schemes</p>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-secondary">IoT</span>
+                            <span class="badge bg-secondary">Python</span>
+                            <span class="badge bg-secondary">Agriculture Tech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- IoT Device for the Blind -->
+            <div class="col">
+                <div class="project-card card h-100">
+                    <div class="card-body">
+                        <h5>IoT Device for the Blind</h5>
+                        <p>Built a navigation aid with Arduino, ultrasonic sensors, and voice feedback</p>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-secondary">Arduino</span>
+                            <span class="badge bg-secondary">Ultrasonic</span>
+                            <span class="badge bg-secondary">IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- System Health Monitoring -->
+            <div class="col">
+                <div class="project-card card h-100">
+                    <div class="card-body">
+                        <h5>System Health Monitoring</h5>
+                        <p>Python GUI dashboard for real-time system health tracking</p>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-secondary">Python</span>
+                            <span class="badge bg-secondary">Tkinter</span>
+                            <span class="badge bg-secondary">GUI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- WiFi Controlled Car -->
+            <div class="col">
+                <div class="project-card card h-100">
+                    <div class="card-body">
+                        <h5>WiFi Controlled Car</h5>
+                        <p>Smartphone-controlled car using Arduino & NodeMCU</p>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-secondary">NodeMCU</span>
+                            <span class="badge bg-secondary">Arduino</span>
+                            <span class="badge bg-secondary">IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- AI-Powered Guardian -->
+            <div class="col">
+                <div class="project-card card h-100">
+                    <div class="card-body">
+                        <h5>AI-Powered Guardian</h5>
+                        <p>Facial recognition and emotion detection for home security</p>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-secondary">AI</span>
+                            <span class="badge bg-secondary">IoT</span>
+                            <span class="badge bg-secondary">Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Smart Belt Buckle -->
+            <div class="col">
+                <div class="project-card card h-100">
+                    <div class="card-body">
+                        <h5>Smart Belt Buckle</h5>
+                        <p>GPS/GSM-enabled safety device with SOS functionality</p>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-secondary">GPS</span>
+                            <span class="badge bg-secondary">GSM</span>
+                            <span class="badge bg-secondary">IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- STM32 Pollution Monitoring -->
+            <div class="col">
+                <div class="project-card card h-100">
+                    <div class="card-body">
+                        <h5>STM32 Pollution Monitoring</h5>
+                        <p>Environmental monitoring and automated ventilation system</p>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge bg-secondary">STM32</span>
+                            <span class="badge bg-secondary">IoT</span>
+                            <span class="badge bg-secondary">Environmental Tech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="section-title mb-4">Academic Credentials</h2>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5>B.Tech ECE</h5>
+                            <p>Kalasalingam University (2023-2026)</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5>Diploma in ECE</h5>
+                            <p>Diviseema Polytechnic, SBTET Andhra Pradesh (2020-2023)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <h2 class="section-title mb-4">Certifications</h2>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <ul class="list-unstyled">
+                                <li>✓ NPTEL - Introduction to Industry 4.0</li>
+                                <li>✓ NPTEL - Soft Skills</li>
+                                <li>✓ Quiz Winner - Emertxe's Embedded Systems Quiz Challenge</li>
+                                <li>✓ Google Digital Workshop</li>
+                                <li>✓ Information Security Education</li>
+                                <li>✓ Wildlife Ecology</li>
+                                <li>✓ Plastic Waste Management</li>
+                                <li>✓ The Story of Photoelectric Effect</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteering -->
+    <section class="container py-5">
+        <h2 class="section-title mb-4">Community Impact</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Habitat for Humanity</h5>
+                        <p>Advocated sustainable construction & conservation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5>NSS Volunteer</h5>
+                        <p>Engaged in community development and environmental initiatives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jsPDF Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        document.getElementById('downloadResume').addEventListener('click', function () {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            // Set font and size
+            doc.setFont("helvetica", "normal");
+            doc.setFontSize(18);
+
+            // Add title
+            doc.text("SivaRamireddy Venna - IoT Portfolio", 10, 10);
+            doc.setFontSize(12);
+
+            // Add contact information
+            doc.text("Contact Information:", 10, 20);
+            doc.text("Email: sivaramservices@gmail.com | Phone: +91 6302779701", 10, 25);
+            doc.text("Andhra Pradesh, India", 10, 30);
+
+            // Add skills
+            doc.text("Technical Skills:", 10, 40);
+            doc.text("Programming: C, Python, Embedded C", 10, 45);
+            doc.text("Technologies: STM32, Arduino, NodeMCU, IoT", 10, 50);
+            doc.text("Tools: Arduino IDE, Tkinter, Matplotlib, Linux, SQL", 10, 55);
+            doc.text("Languages: Telugu (Native), English (Working), Hindi (Basic), Tamil (Basic)", 10, 60);
+
+            // Add experience
+            doc.text("Professional Experience:", 10, 70);
+            doc.text("Embedded Systems & IoT Intern - Emertxe Information Technologies", 10, 75);
+            doc.text("IoT Intern - IXAR Robotic Solutions Pvt. Ltd.", 10, 80);
+            doc.text("Embedded Systems & IoT Intern - SURE TRUST", 10, 85);
+            doc.text("IoT Intern - Emertxe Information Technologies", 10, 90);
+
+            // Add projects
+            doc.text("Projects:", 10, 100);
+            doc.text("Distance Wireless Charging Using Ultrasonic", 10, 105);
+            doc.text("AgriConnect: Empowering Farmers", 10, 110);
+            doc.text("IoT Device for the Blind", 10, 115);
+            doc.text("System Health Monitoring", 10, 120);
+            doc.text("WiFi Controlled Car", 10, 125);
+            doc.text("AI-Powered Guardian", 10, 130);
+            doc.text("Smart Belt Buckle", 10, 135);
+            doc.text("STM32 Pollution Monitoring", 10, 140);
+
+            // Add education
+            doc.text("Education:", 10, 150);
+            doc.text("B.Tech ECE - Kalasalingam University (2023-2026)", 10, 155);
+            doc.text("Diploma in ECE - Diviseema Polytechnic, SBTET Andhra Pradesh (2020-2023)", 10, 160);
+
+            // Add certifications
+            doc.text("Certifications:", 10, 170);
+            doc.text("✓ NPTEL - Introduction to Industry 4.0", 10, 175);
+            doc.text("✓ NPTEL - Soft Skills", 10, 180);
+            doc.text("✓ Quiz Winner - Emertxe's Embedded Systems Quiz Challenge", 10, 185);
+            doc.text("✓ Google Digital Workshop", 10, 190);
+            doc.text("✓ Information Security Education", 10, 195);
+            doc.text("✓ Wildlife Ecology", 10, 200);
+            doc.text("✓ Plastic Waste Management", 10, 205);
+            doc.text("✓ The Story of Photoelectric Effect", 10, 210);
+
+            // Add volunteering
+            doc.text("Volunteering:", 10, 220);
+            doc.text("Habitat for Humanity - Advocated sustainable construction & conservation", 10, 225);
+            doc.text("NSS Volunteer - Engaged in community development and environmental initiatives", 10, 230);
+
+            // Save the PDF
+            doc.save("SivaRamireddy_Venna_Resume.pdf");
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
